@@ -1,0 +1,71 @@
+:root {
+  box-sizing: border-box;
+  font-size: 1em;
+
+  --main-font: "Open Sans", sans-serif;
+  --heading-font: "Arial", sans-serif;
+  --color-primary: #e8b284;
+  --color-secondary: #333333;
+  --color-text: #0D0D0D;
+  --color-background: #ffffff;
+  --color-accent: #f2f2f2;
+
+
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-bottom: .5em;
+
+}
+
+body {
+  margin: 0;
+  font-family: var(--main-font);
+  font-weight: 400;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  letter-spacing: 0.03rem;
+  line-height: 1.425;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  font-weight: 600;
+  margin-top: 1em;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 25vh;
+  display: flex;
+  align-items: center;
+}
+
+.header li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primary);
+}
