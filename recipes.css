@@ -36,8 +36,10 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  text-align: justify;
 
 }
+
 
 h1,
 h2,
@@ -50,13 +52,23 @@ h6 {
   margin-top: 1em;
 }
 
+.container.header {
+  max-width: 1200px;
+  text-align: initial;
+}
+
+.header-landing {
+  margin-right: 1em;
+}
+
 .container {
-  max-width: 1140px;
+  max-width: 700px;
   margin: 0 auto;
+  margin-top: 15em;
 }
 
 .header {
-  margin-top: 25vh;
+
   display: flex;
   align-items: center;
 }
@@ -68,4 +80,42 @@ h6 {
 a {
   text-decoration: none;
   color: var(--color-primary);
+}
+
+.container.content {
+  margin-top: 25em;
+}
+
+.content h1 {
+  margin-top: 3em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+.content li {
+  margin: 1em 0 1em 1.3em;
+
+}
+
+.recipe-links {
+  margin-top: 5em;
+}
+
+.recipe-links .flex {
+  display: flex;
+  max-width: 1200px;
+
+}
+
+.flex h1 {
+  font-size: 1em;
+  margin-right: .5em;
+}
+
+.flex p {
+  font-size: .8em;
+  margin-right: 1em;
+  m
 }
