@@ -20,7 +20,7 @@
   margin: 0;
   padding: 0;
   transition: background-color 0.3s ease, color 0.3s ease;
-  margin-bottom: .5em;
+
 
 }
 
@@ -67,6 +67,7 @@ h6 {
   margin-top: 15em;
 }
 
+
 .header {
 
   display: flex;
@@ -86,6 +87,17 @@ a {
   margin-top: 25em;
 }
 
+.recipe-page {
+  margin-top: 5em;
+  text-align: initial;
+  margin-bottom: 15em;
+}
+
+.recipe-page li {
+  margin: 1em 0 1em 1.3em;
+
+}
+
 .content h1 {
   margin-top: 3em;
 }
@@ -103,19 +115,45 @@ h2 {
   margin-top: 5em;
 }
 
+.recipe-links p {
+  margin-bottom: 2em;
+}
+
 .recipe-links .flex {
   display: flex;
-  max-width: 1200px;
+  max-width: 1400px;
 
+  margin-bottom: 10em;
+
+}
+
+.flex a {
+
+  text-align: initial;
 }
 
 .flex h1 {
   font-size: 1em;
-  margin-right: .5em;
+  margin-top: 0;
 }
 
 .flex p {
   font-size: .8em;
   margin-right: 1em;
-  m
+  margin-top: 0;
+}
+
+.disclaimer {
+  margin-top: 5em;
+
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0;
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  padding: 2em;
+}
+
+.disclaimer li {
+  list-style-type: none;
 }
