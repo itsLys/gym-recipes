@@ -28,7 +28,7 @@ body {
   margin: 0;
   font-family: var(--main-font);
   font-weight: 400;
-  background-color: var(--color-background);
+  background-color: var(--color-accent);
   color: var(--color-text);
   letter-spacing: 0.03rem;
   line-height: 1.425;
@@ -48,12 +48,19 @@ h4,
 h5,
 h6 {
   font-family: var(--heading-font);
-  font-weight: 600;
-  margin-top: 1em;
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: .5em;
+  margin-top: 2em;
+}
+
+p {
+  margin-bottom: .3em;
 }
 
 .container.header {
   max-width: 1200px;
+  background-color: var(--color-accent);
   text-align: initial;
 }
 
